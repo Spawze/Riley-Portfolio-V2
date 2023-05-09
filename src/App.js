@@ -13,18 +13,18 @@ function App() {
         <main>
           <Routes>
             <Route
-              path='/'
+              path='/Riley-Portfolio-V2/'
               element={<AboutMe />}
             />
             <Route
-              path='/portfolio'
+              path='/Riley-Portfolio-V2/portfolio'
               element={<Portfolio />}
             />
             <Route
-              path='/contact'
+              path='/Riley-Portfolio-V2/contact'
               element={<Contact />}
             /><Route
-              path='/resume'
+              path='/Riley-Portfolio-V2/resume'
               element={<Resume />}
             />
           </Routes>
