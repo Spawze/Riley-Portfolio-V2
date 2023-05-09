@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Riley-Portfilio-V2/static/css/main.e77dbb6e.css",
-    "main.js": "/Riley-Portfilio-V2/static/js/main.0ab044d0.js",
-    "static/media/its-reaction-time.png": "/Riley-Portfilio-V2/static/media/its-reaction-time.8a4a012b8e7f6e23e8b1.png",
-    "static/media/dogbytes.png": "/Riley-Portfilio-V2/static/media/dogbytes.8e8f1d6273957047a1ef.png",
-    "static/media/chilldog.png": "/Riley-Portfilio-V2/static/media/chilldog.9ba484e8bca4d9617afa.png",
-    "index.html": "/Riley-Portfilio-V2/index.html",
-    "main.e77dbb6e.css.map": "/Riley-Portfilio-V2/static/css/main.e77dbb6e.css.map",
-    "main.0ab044d0.js.map": "/Riley-Portfilio-V2/static/js/main.0ab044d0.js.map"
+    "main.css": "/Riley-Portfolio-V2/static/css/main.e77dbb6e.css",
+    "main.js": "/Riley-Portfolio-V2/static/js/main.6ea5e7eb.js",
+    "static/media/its-reaction-time.png": "/Riley-Portfolio-V2/static/media/its-reaction-time.8a4a012b8e7f6e23e8b1.png",
+    "static/media/dogbytes.png": "/Riley-Portfolio-V2/static/media/dogbytes.8e8f1d6273957047a1ef.png",
+    "static/media/chilldog.png": "/Riley-Portfolio-V2/static/media/chilldog.9ba484e8bca4d9617afa.png",
+    "index.html": "/Riley-Portfolio-V2/index.html",
+    "main.e77dbb6e.css.map": "/Riley-Portfolio-V2/static/css/main.e77dbb6e.css.map",
+    "main.6ea5e7eb.js.map": "/Riley-Portfolio-V2/static/js/main.6ea5e7eb.js.map"
   },
   "entrypoints": [
     "static/css/main.e77dbb6e.css",
-    "static/js/main.0ab044d0.js"
+    "static/js/main.6ea5e7eb.js"
   ]
 }
