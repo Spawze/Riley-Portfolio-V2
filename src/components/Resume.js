@@ -1,7 +1,9 @@
 import React from "react";
 
-export default function Resume(){
+export default function Resume() {
     return (
-        <h1>My Resume</h1>
+        <div className="container">
+            <h1>My Resume</h1>
+        </div>
     )
 }
