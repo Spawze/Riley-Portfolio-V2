@@ -1,10 +1,12 @@
 import React from "react";
+import chillDog from '../images/chilldog.png'
 
 export default function AboutMe() {
     return (
         <div className="container">
             <div className="row">
                 <h1 className="col s12 left-align">About Me</h1>
+                <img id="dog" src={chillDog} className="responsive-image circle" alt="Dog with sunglasses"></img>
                 <p className="flow-text left-align col s-12">
                     My name is Riley Allred. I am 21 years old, and I currently live in Clearfield UT. I have lived in Utah my entire life, and I grew up having a huge interest in computers and how they work.
                     I completed the UofU web development bootcamp in May of 2023, and learned all of the industry standards for web design.

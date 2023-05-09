@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import M from "materialize-css/dist/js/materialize.min.js";
 
@@ -10,6 +10,7 @@ export default function Header() {
     const sidenavEl = document.querySelectorAll('.sidenav');    
     M.Sidenav.init(sidenavEl, {});
     })
+
     return (
         <header>
             <nav>
@@ -19,10 +20,10 @@ export default function Header() {
                     
                     <a href="#!" data-target="slide-out" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                     <ul className="right hide-on-med-and-down">
-                        <li><Link to="/">About Me</Link></li>
-                        <li><Link to="/portfolio">Portfolio</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
-                        <li><Link to="/resume">Resume</Link></li>
+                        <li className={useLocation().pathname==='/'?'active':''}><Link to="/">About Me</Link></li>
+                        <li className={useLocation().pathname==='/portfolio'?'active':''}><Link to="/portfolio">Portfolio</Link></li>
+                        <li className={useLocation().pathname==='/contact'?'active':''}><Link to="/contact">Contact</Link></li>
+                        <li className={useLocation().pathname==='/resume'?'active':''}><Link to="/resume">Resume</Link></li>
                     </ul>
                     </div>
                 </div>

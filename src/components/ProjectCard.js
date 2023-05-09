@@ -7,7 +7,7 @@ export default function ProjectCard(props) {
         <div className="col s12 m12 l6" key={item.key}>
           <div className="card large grey darken-1 sticky-action">
             <div className="card-image waves-effect waves-block waves-light">
-              <img className="activator" alt="" src={item.image} />
+              <img className="activator" alt={item.imgAlt} src={item.image} />
             </div>
             <div className="card-content">
               <span className="card-title activator white-text">{item.name}<i className="material-icons right">more_vert</i></span>
