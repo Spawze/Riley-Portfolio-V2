@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/Riley-Portfolio-V2/static/css/main.e77dbb6e.css",
-    "main.js": "/Riley-Portfolio-V2/static/js/main.6ea5e7eb.js",
+    "main.js": "/Riley-Portfolio-V2/static/js/main.d2bc957b.js",
     "static/media/its-reaction-time.png": "/Riley-Portfolio-V2/static/media/its-reaction-time.8a4a012b8e7f6e23e8b1.png",
     "static/media/dogbytes.png": "/Riley-Portfolio-V2/static/media/dogbytes.8e8f1d6273957047a1ef.png",
+    "static/media/weather-dashboard.png": "/Riley-Portfolio-V2/static/media/weather-dashboard.666ff37955169c1a2f13.png",
     "static/media/chilldog.png": "/Riley-Portfolio-V2/static/media/chilldog.9ba484e8bca4d9617afa.png",
+    "static/media/semi-snitch.png": "/Riley-Portfolio-V2/static/media/semi-snitch.f9c89cbf2b30ba2b545e.png",
     "index.html": "/Riley-Portfolio-V2/index.html",
     "main.e77dbb6e.css.map": "/Riley-Portfolio-V2/static/css/main.e77dbb6e.css.map",
-    "main.6ea5e7eb.js.map": "/Riley-Portfolio-V2/static/js/main.6ea5e7eb.js.map"
+    "main.d2bc957b.js.map": "/Riley-Portfolio-V2/static/js/main.d2bc957b.js.map"
   },
   "entrypoints": [
     "static/css/main.e77dbb6e.css",
-    "static/js/main.6ea5e7eb.js"
+    "static/js/main.d2bc957b.js"
   ]
 }
