@@ -2,9 +2,21 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import dogBytesImage from '../images/dogbytes.png'
 import reactionTimeImage from '../images/its-reaction-time.png'
-import placeholderImage from '../images/placeholder.png'
+import semiSnitchImage from '../images/semi-snitch.png'
+// import placeholderImage from '../images/placeholder.png'
+import weatherDashboardImage from '../images/weather-dashboard.png'
 export default function Portfolio(){
     const projects =[
+
+        {
+            name: "Semi Snitch",
+            key:6,
+            image: semiSnitchImage,
+            url: "https://infinite-meadow-71565.herokuapp.com",
+            github: "https://github.com/greg4949/Semi-Snitch",
+            description: "Semi Snitch is my final group project from the bootcamp. I made it with 5 other people. The app will take semi truck idle events- which are when a semi truck idles for too long- and will compare that event to the outside temperature at the time of the event. The user can then decide whether or not to coach the driver of the truck. All of the info on idle events is stored in a database, so the user can access from anywhere.",
+            imgAlt: "Image of the Semi-Snitch website. Shows rows of semi truck idle event information"
+        },
         {
             name:"DogBytes",
             key:1,
@@ -24,41 +36,33 @@ export default function Portfolio(){
             imgAlt: "Image of the It's Reaction Time game page. There is a red square, and instructions saying to click it when it turns green."
         },
         {
-            name: "Placeholder",
+            name: "Weather Dashboard",
             key:3,
-            image: placeholderImage,
-            url: "#!",
-            github: "#!",
-            description: "Placeholder project :3",
+            image: weatherDashboardImage,
+            url: "https://spawze.github.io/Weather-Dashboard/",
+            github: "https://github.com/Spawze/Weather-Dashboard",
+            description: "A simple weather forecast dashboard. I made this by myself in the early days of my bootcamp. It uses the information provided by the user to call the OpenWeather API to get the information, and then will display. This app uses only HTML, JS, and CSS.",
             imgAlt: "Placeholder image"
         },
-        {
-            name: "Placeholder",
-            key:4,
-            image: placeholderImage,
-            url: "#!",
-            github: "#!",
-            description: "Placeholder project :3",
-            imgAlt: "Placeholder image"
-        },
-        {
-            name: "Placeholder",
-            key:5,
-            image: placeholderImage,
-            url: "#!",
-            github: "#!",
-            description: "Placeholder project :3",
-            imgAlt: "Placeholder image"
-        },
-        {
-            name: "Placeholder",
-            key:6,
-            image: placeholderImage,
-            url: "#!",
-            github: "#!",
-            description: "Placeholder project :3",
-            imgAlt: "Placeholder image"
-        },
+        // {
+        //     name: "Placeholder",
+        //     key:4,
+        //     image: placeholderImage,
+        //     url: "#!",
+        //     github: "#!",
+        //     description: "Placeholder project :3",
+        //     imgAlt: "Placeholder image"
+        // },
+        // {
+        //     name: "Placeholder",
+        //     key:5,
+        //     image: placeholderImage,
+        //     url: "#!",
+        //     github: "#!",
+        //     description: "Placeholder project :3",
+        //     imgAlt: "Placeholder image"
+        // },
+        
     ]
     return (
         <div className="container">
