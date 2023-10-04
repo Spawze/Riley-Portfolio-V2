@@ -19,6 +19,7 @@
     }
   ],
   "start_url": ".",
+  "homepage":"https://spawze.github.io/Riley-Portfolio-V2/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
