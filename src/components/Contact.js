@@ -42,11 +42,13 @@ export default function Contact() {
             setError("Please enter a valid email address!")
             return
         }
+
         setError('')
         setSuccess('Message submitted! Thank you so much!')
         setEmail('')
         setName('')
         setMessage('')
+
 
     }
     return (
